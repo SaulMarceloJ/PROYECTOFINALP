@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <link rel="stylesheet" href="estiloFORM.css">
+    <title>Gestión de Productos</title>
+</head>
+<body>
+    <h1>Gestión de Productos</h1>
+    <form method="post" action="cproducto.php">
+        <label for="producto_id">C del Producto:</label>
+        <input type="text" name="producto_id" id="producto_id" required>
+        <br><br>
+        <label for="nombre">Nombre:</label>
+        <input type="text" name="nombre" id="nombre" required>
+        <br><br>
+        <label for="descripcion">Descripción:</label>
+        <input type="text" name="descripcion" id="descripcion" required>
+        <br><br>
+        <label for="precio">Precio:</label>
+        <input type="number" name="precio" id="precio" step="0.01" required>
+        <br><br>
+        <label for="cantidad">Cantidad Disponible:</label>
+        <input type="number" name="cantidad" id="cantidad" required>
+        <br><br>
+        <label for="proveedor_id">C del Proveedor:</label>
+        <input type="text" name="proveedor_id" id="proveedor_id" required>
+        <br><br>
+        <input type="submit" name="insertar" value="Insertar">
+        <input type="submit" name="eliminar" value="Eliminar">
+        <input type="submit" name="actualizar" value="Actualizar">
+    </form>
+    <div class="back-button-container">
+        <a href="menu.html" class="back-button">
+            <img src="ss12.jpg" alt="Botón de Regreso" width="30" height="30">
+        </a>
+    </div>
+</body>
+</html>

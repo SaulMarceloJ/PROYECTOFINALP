@@ -1,0 +1,75 @@
+/* Estilos básicos */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f5f5f5;
+  }
+  
+  header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+  }
+  
+  header h1 {
+    margin: 0;
+  }
+  
+  nav ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  nav ul li {
+    display: inline;
+    margin-right: 20px;
+  }
+  
+  nav ul li a {
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  main {
+    padding: 20px;
+  }
+  
+  footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+  }
+  
+  /* Estilos para la animación */
+  .acerca-de {
+    text-align: left;
+  }
+  
+  .animated-text {
+    opacity: 0;
+    animation: slideFromLeft 1s ease forwards;
+  }
+  
+  @keyframes slideFromLeft {
+    to {
+      opacity: 1;
+      transform: translateX(0);
+    }
+  }
+  .footer-cool ul li a {
+    font-size: 16px;
+    text-transform: capitalize;
+    color: #6d6969;
+    text-decoration: none;
+    color: #160e0e;
+    display: block;
+    transition: all 0.3s ease;
+  }
+  
+  .footer-cool ul li a:hover {
+    color: #616060;
+    padding-left: 8px;
+  }
+  

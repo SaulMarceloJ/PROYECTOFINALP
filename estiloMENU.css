@@ -1,0 +1,66 @@
+.footer-cool ul li a {
+  font-size: 16px;
+  text-transform: capitalize;
+  color: #ffffff;
+  text-decoration: none;
+  color: #160e0e;
+  display: block;
+  transition: all 0.3s ease;
+}
+
+.footer-cool ul li a:hover {
+  color: #ffffff;
+  padding-left: 8px;
+}
+
+.footer-cool h4 {
+  font-size: 18px;
+  color: #ffffff;
+  text-transform: capitalize;
+  margin-bottom: 35px;
+  font-weight: 500;
+  position: relative;
+}
+
+.footer-cool h4::before {
+  content: '';
+  position: absolute;
+  left: 0;
+  bottom: -10px;
+  background-color: #e91e63;
+  height: 2px;
+  box-sizing: border-box;
+  width: 50px;
+}
+nav {
+  background: #171c24;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  height: 200px;
+  padding: 3 100px;
+  background-color: transparent;
+  border: 2px solid rgba(255, 255, 255, 0.5);
+  border-radius: 20px;
+  backdrop-filter: blur(55px);
+
+}
+/* Cambiar el estilo de letra para el cuerpo de toda la página */
+body {
+  font-family: 'Courier New', Courier, monospace; /* Ejemplo de fuente: Arial */
+}
+
+/* Cambiar el estilo de letra para un elemento específico, por ejemplo, un párrafo con la clase "texto" */
+.texto {
+  font-family: "Times New Roman", Times, serif; /* Ejemplo de fuente: Times New Roman */
+}
+body {
+
+  min-height: 100vh;
+  background-image: url(proveedores-de-papeleria-en-guadalajara.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+
+}
